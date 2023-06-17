@@ -1,0 +1,246 @@
+// question no 1
+void main(){
+  int lenght = 40;
+  int breadth = 35;
+
+  if (lenght==breadth){
+  print("square");
+
+  }
+    else{
+      print("rectangle");
+    }
+  
+  }
+  // output question:01=reactangle
+
+
+  //  question no 2
+  
+  void main(){
+  int age1 = 23;
+  int age2 = 20;
+
+  if (age1 > age2){
+  print("oldest");
+
+  }
+    else{
+      print("yongest");
+    }
+  
+  }
+
+// question no 03
+void main(){
+  int classheld = 16;
+  int classattend = 10;
+  num percentage = (classattend/classheld)*100;
+  print(percentage);
+
+if (percentage >= 75) {
+  print ("Allowed");
+}else{
+  print("not Allowed");
+}
+}
+
+//output question:03 = 62.5
+//not Allowed
+
+
+
+//question no = 04
+void main(){
+  int year = 2000;
+
+ if (year % 4 != 0) {
+  print('$year is a comman year.');
+  } else if (year % 100 !=0) {
+    print('$year is a leap year.');
+  } else if (year % 200 != 0) {
+    print('$year is a common year.');
+  } else {
+    print('$year is a leap year.');
+  }
+}
+
+//output question:04= year is a leap year
+
+//question no = 05
+void main(){
+
+int temp = 42;
+if (temp < 0)
+ {print("freezing weather");}
+ else if(temp > 0 && temp <10)
+  {print("very cold weather");}
+  else if(temp > 10 && temp <20)
+  {print("cold weather");}
+  else if(temp > 20   && temp <30)
+  {print("normal in temp");}
+  else if(temp > 30  && temp <40)
+  {print("its hot");}
+  else if(temp >= 40)
+  {print("its very hot");}
+
+//output question:05= its very hot
+
+
+//question no = 06
+void main(){
+
+  String alphabet = "v";
+  if(alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "u" ){
+  print("vowel");
+
+  }else{
+    print("consonant");
+  }
+
+}
+
+//output question:06= consonant
+
+//question no = 07
+void main(){
+int customerIDNO = 1001;
+String name = ("james");
+int unitconsumed = 800;
+
+if(unitconsumed<=199){
+  print(unitconsumed * 1.20);
+}
+else if(unitconsumed>=200 && unitconsumed<=400){
+  print(unitconsumed * 1.50);
+}
+else if(unitconsumed>=400 && unitconsumed<=600){
+  print(unitconsumed * 1.80);
+}
+else if(unitconsumed>=600){
+  print(unitconsumed * 2.00);}
+
+}
+
+//output question:07= 1600.0
+
+
+//question no = 08
+void main(){
+String studentName = "Moiz";
+  int rollNumber = 310956;
+  String className = "9th";
+  int physics = 70;
+  int chemistry = 75;
+  int maths = 85;
+  int islamiat = 95;
+  int english = 90;
+
+  int totalMarks = 500;
+  int obtainedMarks = physics + chemistry + maths + islamiat + english;
+  double percentage = (obtainedMarks / totalMarks)*100;
+
+
+  if (percentage >=90)
+  {print("Grade obtained:A+");}
+  else if (percentage >=80)
+   {print("Grade obtained:A");}
+  else if (percentage >=70)
+   {print("Grade obtained:B");}
+   else if (percentage >=60)
+   {print("Grade obtained:C");}
+   else if (percentage >=50)
+   {print("Grade obtained:D");}
+   else
+   {print("Grade obtained:F");}
+
+   print("student Name: $studentName");
+   print("Roll Number: $rollNumber");
+   print("Class: $className");
+   print("percentage: $percentage%");
+
+}
+
+
+//output question:08=
+Grade obtained:A
+student Name: Moiz
+Roll Number: 310956
+Class: 9th
+percentage: 83.0%
+
+
+//Question no = 09
+void main(){
+  int number = 40;
+  if (number % 2 == 0)
+  {print("The nimber is even.");}
+  else
+  {print("The nimber is odd.");} 
+
+  if (number % 5 == 0)
+  {print("The nimber is divisible by 5.");}
+  else
+  {print("The nimber is not divisible by 5.");}
+
+  if (number % 5 == 0)
+  
+  {print("The nimber is divisible by 7.");}
+  else
+  {print("The nimber is not divisible by 7.");}
+  
+}
+
+
+//output question:09=
+The nimber is even.
+The nimber is divisible by 5.
+The nimber is divisible by 7.
+
+
+//Question No= 10
+void main(){
+  int a = 40;
+  int b = 50;
+  int c = 60;
+  if (a > b && b > c)
+  {print("A is a Greatest Number");}
+
+  else if (b > a && c > b)
+  {print("B is a Greatest Number");}
+
+  else if (c > a && c > b)
+  {print("C is a Greatest Number");}
+
+  if (a > b && a > c)
+  {print("A is a Lowest Number");}
+
+  if (b > a && b > c)
+  {print("B is a Lowest Number");}
+
+  if (c > a && c > b)
+  {print("C is a Lowest Number");}
+}
+
+
+//output question:10=
+B is a Greatest Number
+C is a Lowest Number
+
+
+
+//question no=12
+  void main(){
+  double celcius = 30; //change this value to convert different celsius temperature
+   double fahrenheit = (celcius * 9 / 5) + 32;
+    
+    print("$celcius degrees Celcius is equal to $fahrenheit degrees Fahrenheit");
+  }
+
+output question=12
+
+30 degrees Celcius is equal to 86 degrees Fahrenheit
+
+
+
+
